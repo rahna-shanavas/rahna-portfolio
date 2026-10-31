@@ -1,0 +1,263 @@
+
+/* =====================================
+   DARK THEME - CHARCOAL & WARM LUXURY
+===================================== */
+
+body.dark-theme {
+    /* Main colours */
+    --background: #19171d;
+    --surface: #25222b;
+    --text-primary: #f5f0f5;
+    --text-secondary: #c2bbc8;
+    --border-color: #3b3542;
+
+    /* Accent colours */
+    --rose: #e5a0b7;
+    --lavender: #b99bd5;
+    --sage: #a5c5b4;
+    --amber: #e4b875;
+    --terracotta: #c77b60;
+    --espresso: #51392f;
+    --warm-ivory: #f5f0e8;
+
+    /* Effects */
+    --shadow: 0 5px 25px rgba(0, 0, 0, 0.3);
+    --gradient-creative: linear-gradient(
+        135deg,
+        #e5a0b7,
+        #b99bd5,
+        #c77b60
+    );
+}
+
+/* =====================================
+   BODY & GENERAL
+===================================== */
+
+body.dark-theme {
+    background-color: var(--background);
+    background-image:
+        radial-gradient(
+            circle at 10% 10%,
+            rgba(185, 155, 213, 0.07),
+            transparent 30%
+        ),
+        radial-gradient(
+            circle at 90% 35%,
+            rgba(199, 123, 96, 0.07),
+            transparent 28%
+        );
+    color: var(--text-primary);
+    transition:
+        background-color 0.4s ease,
+        color 0.4s ease;
+}
+
+body.dark-theme h1,
+body.dark-theme h2,
+body.dark-theme h3,
+body.dark-theme h4,
+body.dark-theme h5,
+body.dark-theme h6 {
+    color: var(--text-primary);
+}
+
+body.dark-theme p {
+    color: var(--text-secondary);
+}
+
+/* =====================================
+   NAVIGATION
+===================================== */
+
+body.dark-theme .navbar {
+    background-color: rgba(37, 34, 43, 0.92);
+    border-bottom: 1px solid var(--border-color);
+    backdrop-filter: blur(14px);
+}
+
+body.dark-theme .navbar-brand,
+body.dark-theme .nav-link {
+    color: var(--text-primary);
+}
+
+body.dark-theme .nav-link:hover,
+body.dark-theme .nav-link.active,
+body.dark-theme .navbar-brand:hover {
+    color: var(--rose);
+}
+
+/* =====================================
+   CARDS
+===================================== */
+
+body.dark-theme .card {
+    background-color: var(--surface);
+    border-color: var(--border-color);
+    box-shadow: var(--shadow);
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease,
+        border-color 0.3s ease;
+}
+
+body.dark-theme .card-title {
+    color: var(--text-primary);
+}
+
+body.dark-theme .card-text {
+    color: var(--text-secondary);
+}
+
+body.dark-theme .card:hover {
+    border-color: rgba(229, 160, 183, 0.45);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* =====================================
+   ABOUT SECTION
+===================================== */
+
+body.dark-theme .about-content {
+    background-color: var(--surface);
+    border-left-color: var(--rose);
+}
+
+body.dark-theme .about-content p {
+    color: var(--text-secondary);
+}
+
+/* =====================================
+   LINKS & ACCENTS
+===================================== */
+
+body.dark-theme a {
+    transition: color 0.3s ease;
+}
+
+body.dark-theme a:hover {
+    color: var(--rose);
+}
+
+body.dark-theme .section-label {
+    color: var(--terracotta);
+}
+
+body.dark-theme .section-label::before {
+    background-color: var(--terracotta);
+}
+
+/* =====================================
+   BUTTONS
+===================================== */
+
+body.dark-theme .btn-primary,
+body.dark-theme .contact-main-button {
+    background: linear-gradient(
+        135deg,
+        #e5a0b7,
+        #b99bd5
+    );
+    border-color: transparent;
+    color: #211b22;
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+body.dark-theme .btn-primary:hover,
+body.dark-theme .contact-main-button:hover {
+    background: linear-gradient(
+        135deg,
+        #b99bd5,
+        #c77b60
+    );
+    border-color: transparent;
+    color: #211b22;
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(185, 155, 213, 0.2);
+}
+
+body.dark-theme .btn-outline-secondary {
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-theme .btn-outline-secondary:hover {
+    background-color: var(--rose);
+    border-color: var(--rose);
+    color: #211b22;
+}
+
+/* =====================================
+   FOOTER
+===================================== */
+
+body.dark-theme .footer {
+    background-color: #201d25;
+    color: var(--text-primary);
+    border-top: 1px solid var(--border-color);
+}
+
+body.dark-theme .footer p {
+    color: var(--text-secondary);
+}
+
+/* =====================================
+   FORMS & INPUTS
+===================================== */
+
+body.dark-theme input,
+body.dark-theme textarea,
+body.dark-theme select {
+    background-color: var(--surface);
+    color: var(--text-primary);
+    border-color: var(--border-color);
+}
+
+body.dark-theme input::placeholder,
+body.dark-theme textarea::placeholder {
+    color: #99909f;
+}
+
+body.dark-theme input:focus,
+body.dark-theme textarea:focus,
+body.dark-theme select:focus {
+    background-color: var(--surface);
+    color: var(--text-primary);
+    border-color: var(--rose);
+    box-shadow: 0 0 0 0.2rem rgba(229, 160, 183, 0.15);
+}
+
+/* =====================================
+   MOBILE NAVIGATION
+===================================== */
+
+body.dark-theme .navbar-toggler {
+    border-color: var(--border-color);
+}
+
+body.dark-theme .navbar-toggler-icon {
+    filter: invert(1);
+}
+
+/* =====================================
+   SELECTION
+===================================== */
+
+body.dark-theme ::selection {
+    background-color: var(--rose);
+    color: #211b22;
+}
+
+/* =====================================
+   SMOOTH TRANSITIONS
+===================================== */
+
+body.dark-theme .card,
+body.dark-theme .btn,
+body.dark-theme .nav-link,
+body.dark-theme .navbar,
+body.dark-theme .about-content {
+    transition: all 0.3s ease;
+}

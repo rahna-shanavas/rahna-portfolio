@@ -1,0 +1,1045 @@
+/* =====================================
+   TABLET RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 991.98px) {
+
+    /* Navigation */
+    .navbar {
+        padding: 15px 0;
+    }
+
+    .navbar-nav {
+        padding-top: 15px;
+    }
+
+    .nav-link {
+        padding: 8px 0;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding: 70px 0;
+    }
+
+}
+
+
+/* =====================================
+   MOBILE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    /* General */
+    body {
+        font-size: 15px;
+    }
+
+    /* Hero Section */
+    .hero-section {
+        padding: 60px 15px;
+        min-height: auto;
+        text-align: center;
+    }
+
+    .hero-section h1 {
+        font-size: 36px;
+    }
+
+    .hero-section h2 {
+        font-size: 22px;
+    }
+
+    .hero-section p {
+        font-size: 15px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    /* Profile Image */
+    .profile-image {
+        width: 240px;
+        height: 280px;
+        max-width: 100%;
+        margin-top: 30px;
+    }
+
+    /* Common Sections */
+    .intro-section,
+    .projects-section {
+        padding-top: 45px;
+        padding-bottom: 45px;
+    }
+
+    /* Cards */
+    .card-body {
+        padding: 20px;
+    }
+
+    /* About Section */
+    .about-content {
+        padding: 20px;
+    }
+
+    /* Footer */
+    .footer {
+        padding: 25px 15px;
+    }
+
+}
+
+
+/* =====================================
+   SMALL MOBILE SCREENS
+===================================== */
+
+@media (max-width: 576px) {
+
+    h1 {
+        font-size: 30px;
+    }
+
+    h2 {
+        font-size: 23px;
+    }
+
+    h3 {
+        font-size: 19px;
+    }
+
+    .navbar-brand {
+        font-size: 19px;
+    }
+
+    .btn {
+        padding: 9px 18px;
+        font-size: 14px;
+    }
+
+    .profile-image {
+        width: 210px;
+        height: 250px;
+    }
+
+}
+
+
+/* =====================================
+   ABOUT PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .about-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .about-heading {
+        margin-bottom: 40px;
+    }
+
+    .about-grid .about-content {
+        padding: 25px;
+    }
+
+    .about-grid .about-content h2 {
+        font-size: 22px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .about-heading h1 {
+        font-size: 32px;
+    }
+
+    .about-intro {
+        font-size: 14px;
+    }
+
+    .about-grid .about-content {
+        padding: 22px;
+    }
+
+}
+
+
+/* =====================================
+   SKILLS PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .skills-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .skills-heading {
+        margin-bottom: 40px;
+    }
+
+    .skill-card {
+        padding: 25px;
+    }
+
+    .skill-card h2 {
+        font-size: 23px;
+    }
+
+    .skills-note {
+        padding: 22px;
+        gap: 12px;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .skills-heading h1 {
+        font-size: 32px;
+    }
+
+    .skills-heading > p:not(.section-label) {
+        font-size: 14px;
+    }
+
+    .skill-card {
+        padding: 22px;
+    }
+
+    .skill-tags {
+        gap: 8px;
+    }
+
+    .skill-tags span {
+        font-size: 11px;
+        padding: 6px 10px;
+    }
+
+    .skills-note h3 {
+        font-size: 19px;
+    }
+
+}
+
+
+/* =====================================
+   PROJECTS PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .projects-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .projects-heading {
+        margin-bottom: 40px;
+    }
+
+    .projects-heading h1 {
+        font-size: 34px;
+    }
+
+    .projects-intro {
+        font-size: 14px;
+    }
+
+    .project-card {
+        padding: 28px;
+        margin-bottom: 30px;
+    }
+
+    .project-card-header {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .project-card-header h2 {
+        font-size: 26px;
+    }
+
+    .project-year {
+        align-self: flex-start;
+    }
+
+    .contribution-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .project-detail-section h4 {
+        font-size: 20px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .projects-heading h1 {
+        font-size: 30px;
+    }
+
+    .project-card {
+        padding: 22px;
+        border-radius: 15px;
+    }
+
+    .project-card-header h2 {
+        font-size: 23px;
+    }
+
+    .project-card-header h3 {
+        font-size: 14px;
+    }
+
+    .project-description {
+        padding-left: 14px;
+    }
+
+    .project-description p {
+        font-size: 14px;
+    }
+
+    .project-feature-list li {
+        font-size: 13px;
+    }
+
+    .project-tech-tags {
+        gap: 8px;
+    }
+
+    .project-tech-tags span {
+        font-size: 11px;
+        padding: 7px 11px;
+    }
+
+    .contribution-item {
+        padding: 17px;
+    }
+
+    .project-highlight {
+        padding: 18px;
+    }
+}
+
+
+/* =====================================
+   EXPERIENCE PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .experience-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .experience-heading {
+        margin-bottom: 45px;
+    }
+
+    .experience-heading h1 {
+        font-size: 34px;
+    }
+
+    .experience-intro {
+        font-size: 14px;
+    }
+
+    .experience-timeline {
+        padding-left: 28px;
+    }
+
+    .experience-timeline::before {
+        left: 7px;
+    }
+
+    .experience-timeline-marker {
+        left: -28px;
+        width: 18px;
+        height: 18px;
+    }
+
+    .experience-card-content {
+        padding: 25px;
+    }
+
+    .experience-card-top {
+        flex-direction: column;
+        gap: 12px;
+    }
+
+    .experience-card-top h2 {
+        font-size: 24px;
+    }
+
+    .experience-status {
+        align-self: flex-start;
+    }
+
+    .experience-meta {
+        flex-direction: column;
+        gap: 10px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .experience-heading h1 {
+        font-size: 30px;
+    }
+
+    .experience-card-content {
+        padding: 20px;
+        border-radius: 14px;
+    }
+
+    .experience-card-top h2 {
+        font-size: 22px;
+    }
+
+    .experience-card-top h3 {
+        font-size: 14px;
+    }
+
+    .experience-description {
+        font-size: 13px;
+    }
+
+    .experience-details h4 {
+        font-size: 19px;
+    }
+
+    .experience-details li {
+        font-size: 13px;
+    }
+
+    .experience-tech-tags {
+        gap: 7px;
+    }
+
+    .experience-tech-tags span {
+        font-size: 10px;
+        padding: 6px 10px;
+    }
+}
+
+
+/* =====================================
+   ACHIEVEMENTS PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .achievements-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .achievements-heading {
+        margin-bottom: 50px;
+    }
+
+    .achievements-heading h1 {
+        font-size: 34px;
+    }
+
+    .achievements-intro {
+        font-size: 14px;
+    }
+
+    .achievement-section {
+        margin-bottom: 55px;
+    }
+
+    .achievement-section-heading {
+        gap: 14px;
+    }
+
+    .achievement-section-number {
+        font-size: 29px;
+    }
+
+    .achievement-section-heading h2 {
+        font-size: 23px;
+    }
+
+    .leadership-timeline {
+        padding-left: 25px;
+    }
+
+    .leadership-item {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 22px;
+    }
+
+    .leadership-item::before {
+        left: -34px;
+    }
+
+    .achievement-card {
+        padding: 25px;
+    }
+
+    .achievements-closing {
+        margin-top: 55px;
+        padding: 35px 22px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .achievements-heading h1 {
+        font-size: 30px;
+    }
+
+    .achievement-section-heading h2 {
+        font-size: 21px;
+    }
+
+    .achievement-section-number {
+        font-size: 25px;
+    }
+
+    .leadership-timeline {
+        margin-left: 8px;
+        padding-left: 20px;
+    }
+
+    .leadership-item {
+        padding: 18px;
+    }
+
+    .leadership-item::before {
+        left: -29px;
+        width: 13px;
+        height: 13px;
+    }
+
+    .leadership-details h3 {
+        font-size: 19px;
+    }
+
+    .leadership-details p,
+    .achievement-card p {
+        font-size: 13px;
+    }
+
+    .achievement-card {
+        padding: 22px;
+    }
+
+    .achievement-card h3 {
+        font-size: 21px;
+    }
+
+    .achievements-closing h2 {
+        font-size: 23px;
+    }
+}
+
+
+/* =====================================
+   CERTIFICATES PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .certificates-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .certificates-heading {
+        margin-bottom: 50px;
+    }
+
+    .certificates-heading h1 {
+        font-size: 34px;
+    }
+
+    .certificates-intro {
+        font-size: 14px;
+    }
+
+    .certificate-section {
+        margin-bottom: 55px;
+    }
+
+    .certificate-section-heading h2 {
+        font-size: 25px;
+    }
+
+    .certificate-card-body {
+        padding: 22px;
+    }
+
+    .presentation-card {
+        padding: 27px;
+        gap: 20px;
+    }
+
+    .presentation-content h3 {
+        font-size: 22px;
+    }
+
+    .academic-card {
+        padding: 25px;
+    }
+
+    .certificates-closing {
+        margin-top: 55px;
+        padding: 35px 22px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .certificates-heading h1 {
+        font-size: 30px;
+    }
+
+    .certificate-section-heading h2 {
+        font-size: 22px;
+    }
+
+    .certificate-preview {
+        min-height: 150px;
+    }
+
+    .certificate-card-body h3 {
+        font-size: 20px;
+    }
+
+    .presentation-card {
+        flex-direction: column;
+        padding: 22px;
+    }
+
+    .presentation-content h3 {
+        font-size: 21px;
+    }
+
+    .academic-card {
+        padding: 22px;
+    }
+
+    .academic-card h3 {
+        font-size: 21px;
+    }
+
+    .academic-details p {
+        font-size: 11px;
+    }
+
+    .certificates-closing h2 {
+        font-size: 23px;
+    }
+}
+
+
+/* =====================================
+   CONTACT PAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 768px) {
+
+    .contact-page {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+
+    .contact-heading {
+        margin-bottom: 45px;
+    }
+
+    .contact-heading h1 {
+        font-size: 36px;
+    }
+
+    .contact-intro {
+        font-size: 14px;
+    }
+
+    .contact-options {
+        margin-bottom: 60px;
+    }
+
+    .contact-card {
+        padding: 30px 22px;
+    }
+
+    .contact-card p {
+        min-height: auto;
+    }
+
+    .contact-collaboration {
+        padding: 40px 25px;
+        margin-bottom: 50px;
+    }
+
+    .contact-collaboration h2 {
+        font-size: 27px;
+    }
+}
+
+
+@media (max-width: 576px) {
+
+    .contact-heading h1 {
+        font-size: 32px;
+    }
+
+    .contact-card {
+        padding: 27px 20px;
+    }
+
+    .contact-card h2 {
+        font-size: 23px;
+    }
+
+    .contact-collaboration {
+        padding: 35px 20px;
+    }
+
+    .contact-collaboration h2 {
+        font-size: 24px;
+    }
+
+    .contact-collaboration > p:not(.section-label) {
+        font-size: 13px;
+    }
+
+    .contact-thankyou h3 {
+        font-size: 22px;
+    }
+}
+
+
+/* =====================================
+   HOMEPAGE RESPONSIVE DESIGN
+===================================== */
+
+/* Tablet */
+
+@media (max-width: 991.98px) {
+
+    .home-hero {
+        min-height: auto;
+        padding: 75px 0;
+    }
+
+    .home-hero-content {
+        text-align: center;
+    }
+
+    .hero-greeting {
+        justify-content: center;
+    }
+
+    .home-hero .hero-description {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .hero-buttons,
+    .hero-social-links {
+        justify-content: center;
+    }
+
+    .home-hero-image-column {
+        margin-top: 15px;
+    }
+
+    .hero-image-wrapper {
+        max-width: 350px;
+    }
+
+    .home-hero .profile-image {
+        height: 370px;
+    }
+
+    .home-highlights {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .home-intro-section,
+    .home-featured-section,
+    .home-creative-section {
+        padding-top: 65px;
+        padding-bottom: 65px;
+    }
+
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .home-hero {
+        padding: 55px 0;
+    }
+
+    .home-hero h1 {
+        font-size: 43px;
+    }
+
+    .home-hero-role {
+        font-size: 22px;
+    }
+
+    .home-hero .hero-description {
+        font-size: 14px;
+    }
+
+    .hero-image-wrapper {
+        max-width: 310px;
+    }
+
+    .home-hero .profile-image {
+        height: 340px;
+    }
+
+    .home-highlights-section {
+        padding-bottom: 35px;
+    }
+
+    .home-highlights {
+        padding: 15px;
+        gap: 10px;
+    }
+
+    .home-highlight-item {
+        padding: 8px;
+    }
+
+    .highlight-icon {
+        width: 40px;
+        height: 40px;
+        font-size: 15px;
+    }
+
+    .home-highlight-item h3 {
+        font-size: 12px;
+    }
+
+    .home-highlight-item p {
+        font-size: 10px;
+    }
+
+    .home-intro-section,
+    .home-featured-section,
+    .home-creative-section {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+
+    .home-intro-content {
+        padding-left: 20px;
+    }
+
+    .home-section-heading {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+        margin-bottom: 30px;
+    }
+
+    .home-view-all {
+        padding-bottom: 0;
+    }
+
+    .home-project-card {
+        min-height: 330px;
+        padding: 28px;
+    }
+
+    .creative-quote-card {
+        min-height: 240px;
+        padding: 30px;
+    }
+
+    .home-closing-section {
+        padding: 65px 15px;
+    }
+
+}
+
+
+/* Small Mobile */
+
+@media (max-width: 576px) {
+
+    .home-hero {
+        padding: 45px 0;
+    }
+
+    .home-hero h1 {
+        font-size: 37px;
+        letter-spacing: -0.8px;
+    }
+
+    .home-hero-role {
+        font-size: 19px;
+    }
+
+    .hero-greeting {
+        font-size: 11px;
+    }
+
+    .hero-status {
+        font-size: 9px;
+    }
+
+    .home-hero .hero-description {
+        font-size: 13px;
+    }
+
+    .hero-buttons {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .hero-buttons .btn {
+        width: 100%;
+    }
+
+    .hero-social-links {
+        gap: 10px;
+    }
+
+    .hero-social-links > span {
+        font-size: 10px;
+    }
+
+    .hero-social-links a {
+        width: 33px;
+        height: 33px;
+    }
+
+    .hero-image-wrapper {
+        max-width: 270px;
+        padding: 15px;
+    }
+
+    .home-hero .profile-image {
+        height: 300px;
+    }
+
+    .decoration-one {
+        width: 85px;
+        height: 85px;
+    }
+
+    .decoration-two {
+        width: 105px;
+        height: 105px;
+    }
+
+    .hero-image-caption {
+        font-size: 10px;
+    }
+
+    .home-highlights {
+        grid-template-columns: 1fr 1fr;
+        padding: 12px;
+        gap: 7px;
+    }
+
+    .home-highlight-item {
+        gap: 9px;
+    }
+
+    .highlight-icon {
+        width: 35px;
+        height: 35px;
+        font-size: 13px;
+    }
+
+    .home-highlight-item h3 {
+        font-size: 10px;
+    }
+
+    .home-highlight-item p {
+        font-size: 9px;
+    }
+
+    .home-section-title {
+        font-size: 31px;
+    }
+
+    .home-intro-content {
+        padding-left: 15px;
+    }
+
+    .home-intro-content p,
+    .home-creative-description {
+        font-size: 13px;
+    }
+
+    .home-project-card {
+        min-height: auto;
+        padding: 23px;
+    }
+
+    .home-project-card h3 {
+        font-size: 25px;
+    }
+
+    .home-project-description {
+        font-size: 12px;
+    }
+
+    .home-project-tags span {
+        font-size: 9px;
+    }
+
+    .creative-quote-card {
+        min-height: 220px;
+        padding: 25px;
+    }
+
+    .creative-quote-card > p {
+        font-size: 20px;
+    }
+
+    .home-closing-section h2 {
+        font-size: 30px;
+    }
+
+    .home-closing-section > .container > p:not(.section-label) {
+        font-size: 13px;
+    }
+
+    .home-footer {
+        padding: 25px 12px;
+    }
+
+}
+
+
+/* =====================================
+   END OF HOMEPAGE RESPONSIVE DESIGN
+===================================== */
+
+@media (max-width: 900px) {
+    .skill-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 500px) {
+    .skill-grid {
+        grid-template-columns: 1fr;
+    }
+}
